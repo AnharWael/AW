@@ -2,7 +2,7 @@
 
 import logging
 import logging.handlers
-from application_name.settings import Settings
+from product_reviews_with_purchases.settings import Settings
 import os
 
 class LoggingService():
