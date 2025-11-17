@@ -21,6 +21,7 @@ Application framework for semester project.
     - Linux and MacOS users should be able to set `"use_pure": false`.
     - Windows users can try `"use_pure": false` but if you receive the Segmentation Fault error set `"use_pure": true`.
     _ I have tested this on Windows 10 Pro, Linux Debian, and MacOS 26 and 10.15.7 Catalina 
+    ## How to run this project
 
-
-
+1. Run the SQL scripts in the `db_scripts/mysql` folder to create and seed the `product_reviews` database.
+2. From the project root, run: `python main.py` to test the database connection and queries.
