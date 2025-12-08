@@ -25,3 +25,10 @@ Application framework for semester project.
 
 1. Run the SQL scripts in the `db_scripts/mysql` folder to create and seed the `product_reviews` database.
 2. From the project root, run: `python main.py` to test the database connection and queries.
+## How to Run My Feature
+1. Run the SQL scripts in db_scripts/mysql to create the product_reviews database.
+
+2. To run my feature, use the script:
+./run.sh
+
+3. The program will connect to MySQL and display all user purchases.
